@@ -32,7 +32,7 @@ For the open version of the dialect-to-MSA machine translation task, participant
 3. **Arabic STS** - Provides MSA, Egyptian, and Saudi dialect translations for English sentences.
    > Reference: [alsulaiman2022semantic](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272991).
 4. **Emi-NADI** - Our dataset to address the scarcity of Emirati dialect parallel corpora.
-   > Reference: 
+   > Reference: [khered2023unimanc](datasets/uae2msa_fromNADItraining.csv)
 
 ### Dataset Sizes
 
@@ -77,16 +77,10 @@ Model training occurs in `AraT5v2_DialecticalArabicToMSA_MT.ipynb` please ensure
 
 ## Citation
 
-```bib
-@inproceedings{abdul-mageed-etal-2023-nadi,
- title        = {{NADI 2023: The Fourth Nuanced Arabic Dialect Identification Shared Task}},
- author       = {Abdul-Mageed, Muhammad  and Elmadany, AbdelRahim and Zhang, Chiyu  and Nagoudi, ElMoatez Billah and Bouamor, Houda  and Habash, Nizar},
- year         = 2023,
- booktitle    = {Proceedings of The First Arabic Natural Language Processing Conference (ArabicNLP 2023)}
- }
-```
+If you find this work or the provided dataset useful in your research or projects, please cite our paper:
 
 ```bib
+
 @inproceedings{khered2023unimanc,
  title = {UniManc at NADI 2023 Shared Task: A Comparison of Various T5-based Models for Translating Arabic Dialectical Text to Modern Standard Arabic},
  author = {Khered, Abdullah Salem and Abdelhalim, Ingy Yasser and Abdelhalim, Nadine and Soliman, Ahmed and Batista-Navarro, Riza},
@@ -95,6 +89,19 @@ Model training occurs in `AraT5v2_DialecticalArabicToMSA_MT.ipynb` please ensure
  month = {Sept},
  abstract = {This paper presents the methods we developed for the Nuanced Arabic Dialect Identification (NADI) 2023 shared task, specifically targeting the two subtasks focussed on sentence-level machine translation (MT) of text written in any of four Arabic dialects (Egyptian, Emirati, Jordanian and Palestinian) to Modern Standard Arabic (MSA). Our team, UniManc, employed models based on T5: multilingual T5 (mT5), multi-task fine-tuned mT5 (mT0) and AraT5. These models were trained based on two configurations: joint model training for all regional dialects (J-R) and independent model training for every regional dialect (I-R). Based on the results of the official NADI 2023 evaluation, our I-R AraT5 model obtained an overall BLEU score of 14.76, ranking first in the Closed Dialect-to-MSA MT subtask. Moreover, in the Open Dialect-to-MSA MT subtask, our J-R AraT5 model also ranked first, obtaining an overall BLEU score of 21.10.}
 }
+
+```
+
+NADI task citation:
+
+```bib
+
+@inproceedings{abdul-mageed-etal-2023-nadi,
+ title        = {{NADI 2023: The Fourth Nuanced Arabic Dialect Identification Shared Task}},
+ author       = {Abdul-Mageed, Muhammad  and Elmadany, AbdelRahim and Zhang, Chiyu  and Nagoudi, ElMoatez Billah and Bouamor, Houda  and Habash, Nizar},
+ year         = 2023,
+ booktitle    = {Proceedings of The First Arabic Natural Language Processing Conference (ArabicNLP 2023)}
+ }
 
 ```
 
