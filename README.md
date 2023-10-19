@@ -32,7 +32,7 @@ For the open version of the dialect-to-MSA machine translation task, participant
 3. **Arabic STS** - Provides MSA, Egyptian, and Saudi dialect translations for English sentences.
    > Reference: [alsulaiman2022semantic](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272991).
 4. **Emi-NADI** - Our dataset to address the scarcity of Emirati dialect parallel corpora.
-   > Reference: [khered2023Emi-NADI](UniManc_NADI2023_ArabicDialectToMSA_MT/blob/main/datasets/Emi-NADI.csv)
+   > Reference: [khered2023Emi-NADI](datasets/Emi-NADI.csv)
 
 ### Dataset Sizes
 
