@@ -26,7 +26,7 @@ The MADAR corpus covers dialects from 25 Arabic-speaking cities, English, and MS
 
 For the open version of the dialect-to-MSA machine translation task, participants could use any dataset. We sourced datasets that covered various Arabic dialects, including regional ones related to the NADI challenge countries. Specifically, we used:
 1. **PADIC** - Covers six Arabic cities including Gaza and Damascus from the Levant region.
-   > Reference: [meftouh2018padic](https://huggingface.co/datasets/arbml/PADIC).
+   > Reference: [meftouh2018padic](https://sourceforge.net/projects/padic/).
 2. **Dial2MSA** - Consists of tweets in Arabic dialects with MSA translations, focusing on Egyptian and Maghrebi dialects.
    > Reference: [mubarakdial2msa](http://lrec-conf.org/workshops/lrec2018/W30/pdf/13_W30.pdf).
 3. **Arabic STS** - Provides MSA, Egyptian, and Saudi dialect translations for English sentences.
